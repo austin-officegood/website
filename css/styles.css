@@ -1,0 +1,132 @@
+/* Below Is The CSS for the Website
+
+    Space for Organization
+
+ 
+*/
+
+/* Navigation Section  */
+
+.navbar-brand {
+  padding: 0 0 0 15%;
+}
+
+#navbarSupportedContent {
+  padding: 0 15% 0 0;
+}
+
+.nav-item {
+  padding: 0 0 0 0;
+}
+
+.nav-link {
+  font-size: large;
+}
+
+/* Parallax */
+.parallax {
+  /* The image used */
+  background-image: url("http://scottparkdomain.com/web2/images/servers.jpg");
+  /* filter: grayscale(70%); */
+
+  /* Set a specific height */
+  min-height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.picture-text {
+  text-align: center;
+  filter: none;
+  color: white;
+  padding-top: 8rem;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.button-style {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+/* Text & Introduction */
+.intro-text {
+  font-family: "Mulish";
+  font-weight: 400;
+  text-align: center;
+  background-color: peru;
+  color: white;
+  padding: 35px 0 35px 0;
+}
+
+.header-text {
+  font-family: "Mulish";
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.text-container {
+  padding: 25px 25px 25px 25px;
+}
+
+/* Icon Section */
+.icon-desc-container {
+  padding: 8% 20% 8% 20%;
+}
+
+.icon-text {
+  text-align: center;
+  padding: 0 3% 0 3%;
+}
+
+/* Picture Carousel Collage Slide Thing */
+.picture1 {
+  min-height: 400px;
+  background: url("/images/picture1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.picture2 {
+  min-height: 400px;
+  background: url("/images/picture2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.picture3 {
+  min-height: 400px;
+  background: url("/images/picture3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-item {
+  text-align: center;
+  margin-top: 5%;
+  font-family: "Mulish";
+}
+
+.carousel-inside-text {
+  padding: 10% 0 10% 0;
+}
+
+/* Footer */
+
+.footer-style {
+  padding: 20px 0px 10px;
+  font-size: 9pt;
+  font-weight: normal;
+  border-top: solid 0px #eeeeee;
+  background-color: #666666;
+  color: white;
+  text-align: center;
+}

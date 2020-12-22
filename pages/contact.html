@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts Import -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons Import (FontAwesome) -->
+    <script
+      src="https://kit.fontawesome.com/58d3675390.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/contact-form.css" />
+
+    <title>
+      GoSteve Consulting | IT Consulting & Solutions
+    </title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand logoWords" href="#"
+        ><img class="img-fluid" src="/images/logo4.png" alt="goSteve Logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="/index.html">Home </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Contact Us <span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Contacts Page Sections -->
+    <section class="row" style="padding-top: 3%;">
+      <!-- Contact Email Section -->
+      <div class="col-lg-6">
+        <div class="container-fluid" style="padding: 0 22% 10% 22%;">
+          <div class="fcf-body">
+            <div id="fcf-form">
+              <h3 class="fcf-h3">Contact us</h3>
+
+              <form
+                id="fcf-form-id"
+                class="fcf-form-class"
+                method="post"
+                action="http://www.scottparkdomain.com/web2/php/contact-form-process.php"
+              >
+                <div class="fcf-form-group">
+                  <label for="Name" class="fcf-label">Your name</label>
+                  <div class="fcf-input-group">
+                    <input
+                      type="text"
+                      id="Name"
+                      name="Name"
+                      class="fcf-form-control"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="fcf-form-group">
+                  <label for="Email" class="fcf-label"
+                    >Your email address</label
+                  >
+                  <div class="fcf-input-group">
+                    <input
+                      type="email"
+                      id="Email"
+                      name="Email"
+                      class="fcf-form-control"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="fcf-form-group">
+                  <label for="Message" class="fcf-label">Your message</label>
+                  <div class="fcf-input-group">
+                    <textarea
+                      id="Message"
+                      name="Message"
+                      class="fcf-form-control"
+                      rows="6"
+                      maxlength="3000"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div class="fcf-form-group">
+                  <button
+                    type="submit"
+                    id="fcf-button"
+                    class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Google Map Embed -->
+      <div class="col-lg-6 map-embed">
+        <h5>Meetings By Appointment Only</h5>
+        <div class="container-fluid" style="padding: 0 0 10% 0;">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.591573620561!2d-118.0183271845855!3d33.87441523452739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2b80e42546a1%3A0xee215d29e5e998b6!2s14747%20Artesia%20Blvd%20%232G%2C%20La%20Mirada%2C%20CA%2090638!5e0!3m2!1sen!2sus!4v1597043832843!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: 0;"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-style">
+      <div style="line-height: 1.7em;">
+        <a href="/index.html"">HOME</a
+        >&nbsp;&nbsp;|&nbsp;&nbsp;
+
+        <a href="#"
+          >CONTACT</a
+        ><br />
+
+        14747 Artesia Blvd Ste 2G La Mirada, CA 90638&nbsp;&nbsp;•&nbsp;&nbsp;
+        TEL. (949)439-6195 •&nbsp;&nbsp; gostevecompany@gmail.com<br />
+        COPYRIGHT © Go Steve Consulting LLC 2020 All RIGHTS RESERVED<br />
+      </div>
+    </footer>
+  </body>
+</html>
