@@ -26,7 +26,7 @@
 /* Parallax */
 .parallax {
   /* The image used */
-  background-image: url("http://scottparkdomain.com/web2/images/servers.jpg");
+  background-image: url("/office-good-website/images/mainphoto.jpg");
   /* filter: grayscale(70%); */
 
   /* Set a specific height */
