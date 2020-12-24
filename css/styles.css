@@ -86,7 +86,7 @@
 /* Picture Carousel Collage Slide Thing */
 .picture1 {
   min-height: 400px;
-  background: url("/images/picture1.jpg");
+  background: url("/office-good-website/images/picture1.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -94,7 +94,7 @@
 }
 .picture2 {
   min-height: 400px;
-  background: url("/images/picture2.jpg");
+  background: url("/office-good-website/images/picture2.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -102,7 +102,7 @@
 }
 .picture3 {
   min-height: 400px;
-  background: url("/images/picture3.jpg");
+  background: url("/office-good-website/images/picture3.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
