@@ -130,3 +130,11 @@
   color: white;
   text-align: center;
 }
+
+/*    @media setting section    */
+
+@media only screen and (min-width: 991px) {
+  body {
+    background-color: lightblue;
+  }
+}
