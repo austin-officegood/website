@@ -11,18 +11,7 @@ body, html {
 
 /* Navigation Section  */
 header{
-    /* The image used */
-    background-image: url("/images/storeFront.jpg");
-    /* filter: grayscale(70%); */
-  
-    /* Set a specific height */
-    min-height: 800px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 nav{
   background-color: transparent;
@@ -42,9 +31,24 @@ nav{
 .nav-link {
   font-size: large;
 }
+.logo{
+  max-width: 200px;
+}
 
 /* Parallax */
 .parallax {
+      /* The image used */
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/storeFront.jpg');
+      filter: grayscale(70%);
+    
+      /* Set a specific height */
+      min-height: 600px;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 
 }
 
