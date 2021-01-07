@@ -5,8 +5,28 @@
  
 */
 
-/* Navigation Section  */
+body, html {
+  height: 100%;
+}
 
+/* Navigation Section  */
+header{
+    /* The image used */
+    background-image: url("/images/storeFront.jpg");
+    /* filter: grayscale(70%); */
+  
+    /* Set a specific height */
+    min-height: 800px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+  background-color: transparent;
+}
 .navbar-brand {
   padding: 0 0 0 15%;
 }
@@ -25,18 +45,7 @@
 
 /* Parallax */
 .parallax {
-  /* The image used */
-  background-image: url("/office-good-website/images/mainphoto.jpg");
-  /* filter: grayscale(70%); */
 
-  /* Set a specific height */
-  min-height: 400px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .picture-text {
