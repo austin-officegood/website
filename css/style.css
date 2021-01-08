@@ -1,0 +1,170 @@
+
+
+/*  Header Section (Navigation)*/
+.logo{
+    width: 130px;
+}
+
+.nav-items{
+    margin-left: auto;
+}
+
+.navbar{
+    padding: 0 5% 0 10%;
+    background-color: #292929;
+}
+
+}
+
+.nav-link{
+    font-size: small;
+}
+
+.lang{
+    font-size: medium;
+    margin-right: 20px;
+}
+
+
+
+/*      Parallax    */
+
+.parallax{
+
+    display: ;
+
+     /* The image used */
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/storeFront.jpg');
+     filter: grayscale(70%);
+    
+     /* Set a specific height */
+     min-height: 600px;
+    
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+     opacity: 0;
+     animation: fadeIn 1s linear forwards;
+}
+
+.picture-text {
+    text-align: center;
+    filter: none;
+    color: white;
+    padding-top: 10rem;
+    font-family: 'Calistoga', cursive;
+    font-weight: 400;
+
+    opacity: 0;
+    animation: 1s fadeIn 1s normal forwards;
+  }
+  
+  .button-style {
+    padding-top: 4rem;
+    text-align: center;
+
+    opacity: 0;
+    animation: 2s fadeIn 2s normal forwards;
+  }
+
+
+
+  /* PDF Pic and Stuff*/
+
+  .pic-desc{
+      display: flex;
+
+  }
+
+.contDiv{
+    text-align: center;
+    justify-content: space-between;
+
+    opacity: 0;
+    animation: 3s fadeIn 2s normal forwards;
+}
+
+
+.sect1{
+    width: 50%;
+    
+}
+.sect2{
+    width: 50%;
+    padding: 5% 10% 10% 5%;
+}
+
+.sect2 img{
+    max-width: 70%;
+    margin: 15% 0 0 0;
+}
+
+
+
+
+
+
+/* Footer */
+
+.footer-style {
+    padding: 20px 0px 10px;
+    font-size: 9pt;
+    font-weight: normal;
+    border-top: solid 0px #eeeeee;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+  }
+
+
+
+
+
+  
+
+/*      @keyframe       */
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes flyIn{
+
+}
+
+
+/*      @media      */
+
+@media only screen and (max-width:991px){
+    .parallax{
+        min-height: 400px;
+    }
+
+    .lang{
+        border-right: 0px;
+    }
+
+    .infoBar{
+        opacity: 0;
+    }
+
+    .pic-desc{
+        display: block;
+    }
+
+    .sect1{
+        width: 100%;
+    }
+    .sect2{
+        width: 100%;
+    }
+}
