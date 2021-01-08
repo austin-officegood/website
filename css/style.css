@@ -257,8 +257,11 @@
 
 @media only screen and (max-width:991px){
     .parallax{
-        padding-top: 6rem;
         min-height: 400px;
+    }
+
+    .picture-text{
+        padding-top: 6rem;
     }
 
     .lang{
