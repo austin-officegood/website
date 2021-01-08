@@ -51,16 +51,17 @@
 <body id="body" class="bodySettings">
 
 
-  <!--    Information Bar on Top of Screen    -->
-    <div class="infoBar" style="height: 1.5rem; background-color: turquoise;">
-        <div style="text-align: center;">
-            <i style="margin: 0 10px 0 0;" class="fas fa-phone-volume"></i>(714)739-9122
-            <i style="margin: 0 5px 0 10px;" class="fas fa-envelope"></i> austin@office-good.com
-            <i style="margin: 0 5px 0 10px;" class="fas fa-laptop-house"></i> 5301 Beach Blvd, Buena Park, CA, 90621
-        </div>
-    </div>
+ 
   <!--    Navigation Panel    -->
-    <header>
+    <header style="" class="header">
+       <!--    Information Bar on Top of Screen    -->
+    <div class="infoBar" style="height: 1.5rem; background-color: turquoise;">
+      <div style="text-align: center;">
+          <i style="margin: 0 10px 0 0;" class="fas fa-phone-volume"></i>(714)739-9122
+          <i style="margin: 0 5px 0 10px;" class="fas fa-envelope"></i> austin@office-good.com
+          <i style="margin: 0 5px 0 10px;" class="fas fa-laptop-house"></i> 5301 Beach Blvd, Buena Park, CA, 90621
+      </div>
+  </div>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img class="logo" src="/images/logo-eng.png" alt="Office Good Computers"></a>
@@ -76,7 +77,11 @@
               </div>
             </div>
           </nav>
+          <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+          </div>
     </header>
+    
     <main>
 
   <!--    Opening Panel on Top    -->
@@ -165,7 +170,17 @@
       </footer>
 </body>
 
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
 
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
 
 
 </html>
