@@ -48,10 +48,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Office Good Website Reboot</title>
 </head>
-<body>
-
-
-
+<body class="parallax">
     <div class="infoBar" style="height: 1.5rem; background-color: turquoise;">
         <div style="text-align: center;">
             <i style="margin: 0 10px 0 0;" class="fas fa-phone-volume"></i>(714)739-9122
@@ -77,7 +74,27 @@
           </nav>
     </header>
     <main>
-        <section class="parallax">
+        <script>
+                (function(){
+
+                    var parallax = document.querySelectorAll("main1"),
+                        speed = 0.5;
+
+                    window.onscroll = function(){
+                      [].slice.call(parallax).forEach(function(el,i){
+                    
+                        var windowYOffset = window.pageYOffset,
+                            elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
+                    
+                        el.style.backgroundPosition = elBackgrounPos;
+                    
+                      });
+                    };
+
+                    })();
+        </script>
+
+        <section id="main1" class="parallax">
             <div class="picture-text">
                 <h1>
                     Since 1996 <br />
@@ -92,11 +109,21 @@
                 >
               </div>
         </section>
+
+
+
+
+
+
+
+
+
+
         <section class="pic-desc">
             <div class="contDiv sect1">
-                <img style="max-width: 70%" src="/images/advertPIC.png" alt="Photo">
+                <img src="/images/advertPIC.png" alt="">
             </div>
-            <div class="contDiv sect2">
+            <div  class="contDiv sect2">
                 <h3>
                     <strong>Since 1996,</strong> we've been providing IT and Tech services.
                 </h3>
@@ -105,9 +132,23 @@
                 <img src="/images/microsoft-certified-professional.jpg" alt="">
             </div>
         </section>
+
+
+
+
+
+
+
+
+
         <section>
             Add contacts information
         </section>
+
+
+
+
+        
         <section>
             Maybe Add some Yelp Reviews
         </section>

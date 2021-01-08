@@ -31,20 +31,22 @@
 
 .parallax{
 
-    display: ;
+ 
 
      /* The image used */
      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/storeFront.jpg');
-     filter: grayscale(70%);
+    
     
      /* Set a specific height */
      min-height: 600px;
     
      /* Create the parallax scrolling effect */
      background-attachment: fixed;
-     background-position: center;
+     background-position: top center;
      background-repeat: no-repeat;
+     background-attachment:fixed;
      background-size: cover;
+     background-position-y: ;
 
      opacity: 0;
      animation: fadeIn 1s linear forwards;
@@ -76,12 +78,19 @@
 
   .pic-desc{
       display: flex;
+      flex-direction: row;
+      margin: 0 13% 0 13%;
+      background-color: white;
+      height: 80%;
 
   }
 
 .contDiv{
+    display: inline-block;
     text-align: center;
-    justify-content: space-between;
+    vertical-align: middle;
+    background-color: white;
+
 
     opacity: 0;
     animation: 3s fadeIn 2s normal forwards;
@@ -89,17 +98,26 @@
 
 
 .sect1{
+    display: inline-block;
+    vertical-align: middle;
     width: 50%;
+    padding: 10% 0 10% 0;
+    
     
 }
 .sect2{
     width: 50%;
-    padding: 5% 10% 10% 5%;
+    height: 0%;
+    padding: 10% 5% 10% 5%;
+}
+
+.sect1 img{
+    max-width: 80%;
 }
 
 .sect2 img{
-    max-width: 70%;
-    margin: 15% 0 0 0;
+    max-width: 80%;
+    margin: 10% 0 0 0;
 }
 
 
@@ -123,7 +141,7 @@
 
 
 
-  
+
 
 /*      @keyframe       */
 
@@ -154,7 +172,7 @@
     }
 
     .infoBar{
-        opacity: 0;
+        display: none;
     }
 
     .pic-desc{
