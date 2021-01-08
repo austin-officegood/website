@@ -33,7 +33,7 @@
     
      /* Set a specific height */
      min-height: 600px;
-    
+     top: fixed;
      /* Create the parallax scrolling effect */
      background-attachment: fixed;
      background-position: top center;
@@ -42,6 +42,7 @@
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
+     z-index: -1;
      
 }
 
