@@ -38,32 +38,23 @@
      background-attachment: fixed;
      background-position: top center;
      background-repeat: no-repeat;
-     background-attachment:fixed;
      background-size: cover;
-     background-position-y: ;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     
 }
 
 
 /*      Parallax    */
 
 .parallax{
-
- 
-
-     /* The image used */
+    /* The image used */
      background: transparent;
     
     
      /* Set a specific height */
      min-height: 600px;
-    
-     /* Create the parallax scrolling effect */
-     background-attachment: fixed;
-     background-position: top center;
-     background-repeat: no-repeat;
-     background-attachment:fixed;
-     background-size: cover;
-     background-position-y: ;
 
      opacity: 0;
      animation: fadeIn 1s linear forwards;
