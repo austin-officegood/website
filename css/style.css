@@ -295,3 +295,18 @@
 
 
 }
+
+@media only screen and (max-width:490px){
+    .parallax{
+        min-height: 400px;
+    }
+
+    .picture-text{
+        padding-top: 3rem;
+    }
+
+
+    
+
+
+}
