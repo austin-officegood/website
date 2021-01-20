@@ -55,7 +55,7 @@
   <!--    Navigation Panel    -->
     <header  class="header">
        <!--    Information Bar on Top of Screen    -->
-    <div class="infoBar" style="height: 1.5rem; background-color: turquoise;">
+    <div id="topInfoBar" class="infoBar" style="height: 1.5rem; background-color: turquoise;">
       <div style="text-align: center;">
           <i style="margin: 0 10px 0 0;" class="fas fa-phone-volume"></i>(714)739-9122
           <i style="margin: 0 5px 0 10px;" class="fas fa-envelope"></i> austin@office-good.com
@@ -85,21 +85,27 @@
     <main>
 
   <!--    Opening Panel on Top    -->
-        <section id="main1" class="parallax">
-            <div class="picture-text">
-                <h1>
-                    Since 1996 <br />
-                    Quality You Can Trust
-                </h1>
-              </div>
-              <div class="button-style">
-                <a href="pages/contacts.html"
-                  ><button type="button" class="btn btn-info">
-                    Contact Us Today
-                  </button></a
-                >
-              </div>
-        </section>
+  <section class="videoText">
+    <div class="ytVideoEmbed">
+      <iframe style="width: 100%; height: 100%;" width="800" height="600" src="https://www.youtube.com/embed/51PYlnlPDGo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <section style="width: 50%; padding: 0 10% 0 0;" id="main1" class="parallax">
+      <div class="picture-text">
+          <h1>
+              Since 1996 <br />
+              Quality You Can Trust
+          </h1>
+        </div>
+        <div class="button-style">
+          <a href="pages/contacts.html"
+            ><button type="button" class="btn btn-info">
+              Contact Us Today
+            </button></a
+          >
+        </div>
+    </section>
+  </section>
+
 
       
   <!--    Picture and Certification   
@@ -180,7 +186,19 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+
+
+$(window).bind('scroll', function() {
+     if ($(window).scrollTop() > 100) {
+         $('#topInfoBar').hide();
+     }
+     else {
+         $('#topInfoBar').show();
+     }
+});
 </script>
+
+
 
 
 </html>

@@ -27,7 +27,7 @@
   }
 
 /*  Header Section (Navigation)*/
-.logo{
+.logo{ 
     width: 130px;
 }
 
@@ -50,6 +50,7 @@
     font-size: medium;
     margin-right: 20px;
 }
+
 
 
 .bodySettings{
@@ -110,6 +111,18 @@
 
     opacity: 0;
     animation: .5s fadeIn 1s normal forwards;
+  }
+
+  .videoText{
+      display: flex;
+      text-align: center;
+  }
+
+  .ytVideoEmbed{
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    padding: 3rem 0 0 13%;
   }
 
 
@@ -257,9 +270,7 @@
     }
 }
 
-@keyframes flyIn{
 
-}
 
 
 /*      @media      */
@@ -301,10 +312,6 @@
         border-right: 0px;
     }
 
-    .infoBar{
-        display: none;
-    }
-
     
     .pic-desc{
         display: block;
@@ -324,6 +331,15 @@
         margin: 0 5% 0 5%;
     }
 
+    #topInfoBar{
+        display: hidden;
+        z-index: 0;
+    }
+
+    .logo{ 
+        width: 110px;
+    }
+
     
 
 
@@ -338,8 +354,9 @@
         padding-top: 6rem;
     }
 
-
     
-
+    .logo{ 
+        width: 80px;
+    }
 
 }
