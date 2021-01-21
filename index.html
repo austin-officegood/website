@@ -43,6 +43,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
+    <!--    Local Script for JS   -->
+    <script src="JS/script.js"></script>
+
+
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -142,10 +147,10 @@
 
 
   <!--    Computer Brands   -->
-        <section class="container-fluid">
+        <section class="brand-scroll">
           <h3>We've encountered a lot of different types and brands of computers, but none that we can't fix.</h3>
-            <div class="row">
-
+            <div class="brand-icons">
+              <img class="brandImg" src="/images/computer-brands.jpg" alt="">
             </div>
         </section>
 
@@ -178,25 +183,7 @@
 </body>
 
 <script>
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
 
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
-
-
-$(window).bind('scroll', function() {
-     if ($(window).scrollTop() > 100) {
-         $('#topInfoBar').hide();
-     }
-     else {
-         $('#topInfoBar').show();
-     }
-});
 </script>
 
 
