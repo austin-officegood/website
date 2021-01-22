@@ -68,6 +68,7 @@
      background-position: top center;
      background-repeat: no-repeat;
      background-size: cover;
+     height: 99vh;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -139,7 +140,7 @@
   .pic-desc{
       display: flex;
       flex-direction: row;
-      margin: 12% 12% 0 12%;
+      margin: 12% 7% 0 7%;
       background-color: white;
       -webkit-font-smoothing: antialiased;
       height: 80vh;
@@ -250,7 +251,7 @@
     background-size: 400% 400%;
     box-shadow: 0 2px 2px 0px rgb(4, 2, 14);
 	animation: gradient 15s ease infinite;
-    margin: 15% 7% 15% 7%;
+    margin: 10% 7% 15% 7%;
     display: flex;
     font-family: 'Mulish';
     min-height: 500px;
@@ -262,6 +263,10 @@
     width: 30%;
     vertical-align: middle;
     text-align: center;
+
+}
+
+.text-container h3{
 
 }
 
