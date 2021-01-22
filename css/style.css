@@ -410,6 +410,27 @@
         padding: 0 0 0 0;
     }
 
+    .brand-scroll{
+        display: inline-block;
+        text-align: center;
+        border-radius: 5%;
+    }
+    .text-container{
+        width: 100%;
+        margin: 5% 0 0 0;
+        text-align: center;
+    }
+
+    .brand-icons{
+        width: 100%;
+        padding: 5%;
+
+
+    }
+    .brandImg{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width:550px){

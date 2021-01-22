@@ -18,6 +18,10 @@ $(window).bind('scroll', function() {
      }
 });
 
+$("#element").css("height", 0.9*$(window).height());
+
+
+
 /****
  * 
  * 
