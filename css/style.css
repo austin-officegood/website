@@ -1,4 +1,5 @@
-#body{
+html{
+    background: black;
 }
 
 .fade {
@@ -194,57 +195,8 @@
 }
 
 
-/*
 
-.pic-desc{
-    display: flex;
-    background: white;
-    height: 70vh;
-    max-width: 100%;
-    
-    margin: 0 10% 0 10%;
-}
-
-.contDiv{
-    display: inline-block;
-    width: 50%;
-    vertical-align: middle;
-    text-align: center;
-}
-.sect1{
-    display: inline-block;
-    vertical-align: middle;
-    width: 50%;
-    padding: 10% 0 10% 0;
-    
-    
-}
-.sect2{
-    width: 50%;
-    height: 0%;
-    padding: 10% 5% 10% 5%;
-}
-.sect1 img{
-    max-height: 100%;
-}
-
-.sect2 img{
-    max-width: 100%;
-}
-
-
-
-
-
-*/
-
-
-
-
-
-
-
-/*      Scrollable Stuff        */
+/*      Brands We Fix        */
 .brand-scroll{
     color: white;
     background: linear-gradient(-45deg, black, #100029, #00146d, rgb(116, 0, 0));
@@ -282,6 +234,24 @@
 }
 
 
+
+
+/*      Contacts Section        */
+
+.contact-info{
+    color: white;
+}
+
+.location-desc{
+    display: flex;
+}
+
+.location-text{
+    width: 40%;
+}
+.loaction-maps{
+    width: 60%;
+}
 
 
 
@@ -423,6 +393,7 @@
     .text-container{
         width: 100%;
         margin: 5% 0 0 0;
+        padding: 0 5% 0 5%;
         text-align: center;
     }
 
