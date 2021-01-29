@@ -11,6 +11,9 @@
 
 
       <!-- Google Fonts Import -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
       <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
@@ -43,66 +46,185 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
+    <!--    Local Script for JS   -->
+    <script src="JS/script.js"></script>
+
+
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Office Good Website Reboot</title>
+    <title>Office Good Computers | IT and Computer Repair Experts</title>
 </head>
-<body>
+    <body id="body" class="bodySettings">
 
 
-
-    <div class="infoBar" style="height: 1.5rem; background-color: turquoise;">
-        <div style="text-align: center;">
-            <i style="margin: 0 10px 0 0;" class="fas fa-phone-volume"></i>(714)739-9122
-            <i style="margin: 0 5px 0 10px;" class="fas fa-envelope"></i> austin@office-good.com
-            <i style="margin: 0 5px 0 10px;" class="fas fa-laptop-house"></i> 5301 Beach Blvd, Buena Park, CA, 90621
-        </div>
-    </div>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand " href="#"><img class="logo" src="/images/logo.png" alt="Office Good Computers"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav nav-items">
-                    <a class="nav-link lang" href="/index.html">🇺🇸</a>
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="/pages/contacts.html" tabindex="-1">Contacts</a>
+ 
+      <!--    Navigation Panel    -->
+        <header  class="header">
+           <!--    Information Bar on Top of Screen    -->
+        <div id="topInfoBar" class="infoBar" style="height: 1.5rem; background-color: turquoise;">
+          <div style="text-align: center;">
+              <i style="margin: 0 10px 0 0;" class="fas fa-phone-volume"></i>(714)739-9122
+              <i style="margin: 0 5px 0 10px;" class="fas fa-envelope"></i> austin@office-good.com
+              <i style="margin: 0 5px 0 10px;" class="fas fa-laptop-house"></i> 5301 Beach Blvd, Buena Park, CA, 90621
+          </div>
+      </div>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img class="logo" src="/images/logo-eng.png" alt="Office Good Computers"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-items">
+                      <a class="nav-link lang" href="/index.html">🇺🇸</a>
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" href="#contact" tabindex="-1">Contacts</a>
+                    </div>
+                  </div>
                 </div>
+              </nav>
+              <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
               </div>
+        </header>
+        
+        <main>
+    
+      <!--    Opening Panel on Top    -->
+      <section class="videoText ">
+        <div class="ytVideoEmbed">
+          <iframe style="width: 100%; height: 90%;" width="700" height="525" src="https://www.youtube.com/embed/51PYlnlPDGo?autoplay=1&loop=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <section id="main1" class="parallax">
+          <div class="picture-text">
+              <h1>
+                  Since 1996 <br />
+                  신뢰할 수 있는 서비스를 제공합니다
+              </h1>
             </div>
-          </nav>
-    </header>
-    <main>
-        <section class="parallax">
-            <div class="picture-text">
-                <h1>
-                  One Stop IT Consulting and Solutions <br />
-                  For You and Your Business
-                </h1>
+            <div class="button-style">
+              <a href="#contact"
+                ><button type="button" class="btn btn-info">
+                  오늘 문의하세요
+                </button></a
+              >
+            </div>
+        </section>
+      </section>
+    
+    
+          
+      <!--    Picture and Certification   
+            <section class="pic-desc">
+                <div class="contDiv sect1">
+                    <img src="/images/advertPIC.png" alt="">
+                </div>
+                <div  class="contDiv sect2">
+                    <h3>
+                        <strong>Since 1996,</strong> we've been providing IT and Tech services.
+                    </h3>
+                    <h4>With <strong>15 years of Experience</strong>, <br>Our promise to always deliver the best service we can.</h4>
+                    <img src="/images/image-asset.png" alt="">
+                    <img src="/images/microsoft-certified-professional.jpg" alt="">
+                </div>
+            </section>
+    -->
+            <section class="pic-desc ">
+              <div class="contDiv sect1">
+                <span class="helper"></span><img src="/images/advertPIC.png" alt="">
+                
               </div>
-              <div class="button-style">
-                <a href="pages/contacts.html"
-                  ><button type="button" class="btn btn-info">
-                    Contact Us Today
-                  </button></a
-                >
+              <div class="contDiv sect2">
+                <h3>
+                  <strong>1996 부터,</strong>
+                </h3>
+                <p> <strong>오피스굿 컴퓨터는 </strong> LA와 OC지역의 수많은 분들께 신뢰 받아 왔습니다.</p>
+                <h4>지난 <strong>15년의 경력을 바탕으로</strong>, <br>항상 최상의 서비스를 제공할것을 약속 드립니다.</h4>
+                <img style="background-color: white;" src="/images/image-asset.png" alt="">
+                <img src="/images/microsoft-certified-professional.jpg" alt="">
               </div>
-        </section>
-        <section>
-            add a picture as well as feature box
-        </section>
-        <section>
-            Add contacts information
-        </section>
-        <section>
-            Maybe Add some Yelp Reviews
-        </section>
-    </main>
-</body>
+            </section>
+    
+    
+    
+      <!--    Computer Brands   -->
+            <section class="brand-scroll ">
+              <div class="text-container">
+                <h3>지난 10년간 다양한 종류의 컴퓨터를 보아왔으나<br>고치지 못한것은 없습니다.</h3>
+              </div>
+              <div class="brand-icons">
+                <img class="brandImg" src="/images/computer-brands.jpg" alt="">
+              </div>
+            </section>
+    
+    
+    <!--    Map Section   -->
+          <section id="contact" class="contact-info">
+            <div class="location-text">
+              <table>
+                <tr>
+                  <th>
+                    영업시간:
+                  </th>
+                  <th>
+      
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    월요일 - 금요일:    &emsp;
+                  </td>
+                  <td>
+                    오전 10시 - 오후 6시
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    토요일:
+                  </td>
+                  <td>
+                    오전 10시 - 오후 5시
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    일요일:
+                  </td>
+                  <td>
+                    Closed
+                  </td>
+                </tr>
+              </table>
+              <p>
+                <br><br>
+                부에나팍 한남체인 안에 자리하고 있습니다.
+              </p>
+      
+            </div>
+            <div class="location-maps">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.175007250234!2d-117.99973848490552!3d33885146380651754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x80dd2b7572f6299f%3A0xe420b15fbc6c7c62!2s5301%20Beach%20Blvd%2C%20Buena%20Park%2C%20CA%2090621!5e0!3m2!sen!2sus!4v1611361068429!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;"allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+      
+          </section>
+    
+    
+    
+        </main>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <br /><br /><br /><br /><br /><br /><br />
+
+    </body>
 <footer class="footer-style">
   <div style="line-height: 1.7em;">
     <a href="#"">HOME</a
