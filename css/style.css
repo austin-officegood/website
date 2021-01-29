@@ -253,7 +253,7 @@ html{
 
 .location-text{
     text-align: center;
-    padding: 5% 5% 5% 5%; 
+    padding: 0% 5% 5% 5%; 
     width: 50%;
     font-family: 'Nunito', sans-serif;
     font-size: x-large;
@@ -270,8 +270,32 @@ html{
     text-align: center;
 }
 
-.location-maps iframe{
+.la-map{
+    margin: 0 0 0 15%;
 }
+
+.location-text-la{
+    text-align: center;
+    margin: 0 0 0 5%;
+    padding: 0% 5% 5% 5%; 
+    width: 50%;
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+
+}
+
+.location-text-la table{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map2{
+    display: none;
+}
+
+
+
 
 
 
@@ -439,6 +463,26 @@ html{
     }
     .location-maps iframe{
         width: 400px;
+    }
+
+    .location-text-la{
+        text-align: center;
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    .la-map{
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+    .la-map iframe{
+        width: 400px;
+    }
+
+    .map1{
+        display: none;
+    }
+    .map2{
+        display: block;
     }
 }
 
