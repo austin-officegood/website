@@ -426,6 +426,20 @@ html{
         width: 100%;
         text-align: center;
     }
+    .contact-info{
+        display: block;
+    }
+
+    .location-text{
+        text-align: center;
+        width: 100%;
+    }
+    .location-maps{
+        text-align: center;
+    }
+    .location-maps iframe{
+        width: 400px;
+    }
 }
 
 @media only screen and (max-width:550px){
