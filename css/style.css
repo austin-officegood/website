@@ -484,6 +484,10 @@ html{
     .map2{
         display: block;
     }
+
+    .brandImg{
+        display: none;
+    }
 }
 
 @media only screen and (max-width:550px){
