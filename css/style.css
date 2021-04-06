@@ -102,17 +102,16 @@ html{
     text-align: center;
     filter: none;
     color: white;
-    padding-top: 15rem;
-    font-family: 'Calistoga', cursive;
-    font-weight: 400;
+    padding-top: 17rem;
+    font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
 
   }
-  
-  .button-style {
-    padding-top: 4rem;
-    text-align: center;
 
+  .pic-text2{
+      color: white;
+      font-size: x-large;
+      font-family: 'Source Sans Pro', sans-serif;
   }
 
   .videoText{
@@ -135,7 +134,7 @@ html{
   .pic-desc{
       display: flex;
       flex-direction: row;
-      margin: 12% 7% 0 7%;
+      margin: 2% 7% 0 7%;
       padding: 5rem 0 10px 0;
       background-color: transparent;
       -webkit-font-smoothing: antialiased;
@@ -260,14 +259,14 @@ html{
 }
 
 .la-map{
-    margin: 0 0 0 15%;
+    margin-left: 30%;
 }
 
 .location-text-la{
     text-align: center;
-    margin: 0 0 0 5%;
+    margin: 0 0 0 20%;
     padding: 0% 5% 5% 5%; 
-    width: 50%;
+    width: 40%;
     font-family: 'Nunito', sans-serif;
     font-size: x-large;
 
@@ -316,7 +315,7 @@ html{
     color: white;
     border-left: solid white;
     border-right:  solid white;
-    margin: 20vh 10% 0 10%;
+    margin: 0 10% 0 10%;
 
 }
 
@@ -435,7 +434,16 @@ html{
 
 
 /*      @media      */
+@media only screen and (max-width:1400px){
 
+    .location-text-la{
+        margin: 0 0 0 12%;
+    }
+
+    .la-map{
+        margin-left: 15%;
+    }
+}
 
 @media only screen and (max-width:1035px){
 
@@ -452,12 +460,15 @@ html{
     .sect2{
         width: 100%;
     }
+    .location-text-la{
+        margin: 0 0 0 12%;
+    }
 }
 
 
 @media only screen and (max-width:991px){
     .parallax{
-        min-height: 400px;
+        min-height: 300px;
     }
 
     .picture-text{
@@ -470,7 +481,7 @@ html{
 
     
     .pic-desc{
-        padding-top: 10rem;
+        padding-top: 2rem;
         margin: 0 5% 0 5%;
         display: block;
         height: fit-content;
@@ -587,7 +598,7 @@ html{
 
 @media only screen and (max-width:550px){
     .parallax{
-        min-height: 400px;
+        min-height: 250px;
         margin-top: 5rem;
     }
 
