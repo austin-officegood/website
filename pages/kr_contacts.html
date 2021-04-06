@@ -11,6 +11,9 @@
 
 
       <!-- Google Fonts Import -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
       <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
@@ -43,43 +46,172 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
+    <!--    Local Script for JS   -->
+    <script src="JS/script.js"></script>
+
+
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Office Good Website Reboot</title>
+    <title>Office Good Computers | IT and Computer Repair Experts</title>
 </head>
-<body>
+    <body id="body" class="bodySettings">
 
 
-
-    <div class="infoBar" style="height: 1.5rem; background-color: turquoise;">
-        <div style="text-align: center;">
-            <i style="margin: 0 10px 0 0;" class="fas fa-phone-volume"></i>(714)739-9122
-            <i style="margin: 0 5px 0 10px;" class="fas fa-envelope"></i> austin@office-good.com
-            <i style="margin: 0 5px 0 10px;" class="fas fa-laptop-house"></i> 5301 Beach Blvd, Buena Park, CA, 90621
-        </div>
-    </div>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img class="logo" src="/images/logo.png" alt="Office Good Computers"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav nav-items">
-                    <a class="nav-link lang" href="/pages/contacts.html">🇺🇸</a>
-                  <a class="nav-link"  href="/index.html">Home</a>
-                  <a class="nav-link active" aria-current="page" href="#" tabindex="-1" >Contacts</a>
+ 
+      <!--    Navigation Panel    -->
+        <header  class="header">
+           <!--    Information Bar on Top of Screen    -->
+        <div id="topInfoBar" class="infoBar" style="height: 1.5rem; background-color: turquoise;">
+          <div style="text-align: center;">
+              <i style="margin: 0 10px 0 0;" class="fas fa-phone-volume"></i>(714)739-9122
+              <i style="margin: 0 5px 0 10px;" class="fas fa-envelope"></i> austin@office-good.com
+              <i style="margin: 0 5px 0 10px;" class="fas fa-laptop-house"></i> 5301 Beach Blvd, Buena Park, CA, 90621
+          </div>
+      </div>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img class="logo" src="/images/logo-eng.png" alt="Office Good Computers"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-items">
+                      <a class="nav-link lang" href="/pages/contacts.html">🇺🇸</a>
+                      <a class="nav-link"  href="/pages/kr_main.html" tabindex="-1">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#" >Contacts</a>
+                    </div>
+                  </div>
                 </div>
+              </nav>
+              <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
               </div>
+        </header>
+        
+        <main>
+    
+    
+            <div id="contact" style="padding-top: 5rem; text-decoration: underline; width: 100%; color: white; font-size: xx-large; font-family: Arial, Helvetica, sans-serif; margin: 5% 0 5% 0; text-align: center;">
+              연락처
             </div>
-          </nav>
-    </header>
-    <main>
+            <!--    Map Section BP  -->
+      <section  class="contact-info">
+        <div class="location-text">
+          <p>
+            LA 본점
+          </p>
+          <table>
+            <tr>
+              <th>
+                영업시간:
+              </th>
+              <th>
+  
+              </th>
+            </tr>
+            <tr>
+              <td>
+                예약제로 운영 합니다.
+              </td>
+            </tr>
+            <tr>
+              <td>
+              </td>
+            </tr>
+          </table>
+          <p>
 
-    </main>
-</body>
+            <br>
+            <br>
+            3549 Wilshire BlvdLos Angeles, CA 90010
+            <br><br>
+            213-387-9122
+          </p>
+  
+        </div>
+        <div class="location-maps">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.2892749388893!2d-118.30436508478464!3d34.06209808060328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b882e71f458f%3A0x2e4d0b2a66bd8c7a!2s3549%20Wilshire%20Blvd%2C%20Los%20Angeles%2C%20CA%2090010!5e0!3m2!1sen!2sus!4v1611949684120!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+  
+      </section>
+
+      <br><br><br>
+<!--    Map Section  LA -->
+<section id="contact" class="contact-info">
+  
+  <div class="location-maps map1">
+    <iframe class="la-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.175007250234!2d-117.99973848490552!3d33885146380651754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x80dd2b7572f6299f%3A0xe420b15fbc6c7c62!2s5301%20Beach%20Blvd%2C%20Buena%20Park%2C%20CA%2090621!5e0!3m2!sen!2sus!4v1611361068429!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;"allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+  <div class="location-text-la">
+    <p>
+      부에나팍 지점
+    </p>
+    <table>
+      <tr>
+        <th>
+          영업시간:
+        </th>
+        <th>
+
+        </th>
+      </tr>
+      <tr>
+        <td>
+          월요일 - 금요일:    &emsp;
+        </td>
+        <td>
+          오전 10시 - 오후 7시
+        </td>
+      </tr>
+      <tr>
+        <td>
+          토요일:
+        </td>
+        <td>
+          오전 10시 - 오후 5시
+        </td>
+      </tr>
+      <tr>
+        <td>
+          일요일:
+        </td>
+        <td>
+          Closed
+        </td>
+      </tr>
+    </table>
+    <p>
+      <br>
+      5301 Beach Blvd Buena Park, CA 90621
+      <br><br>
+      714-739-9122
+    </p>
+
+  </div>
+  <div class="location-maps map2">
+    <iframe class="la-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.175007250234!2d-117.99973848490552!3d33885146380651754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x80dd2b7572f6299f%3A0xe420b15fbc6c7c62!2s5301%20Beach%20Blvd%2C%20Buena%20Park%2C%20CA%2090621!5e0!3m2!sen!2sus!4v1611361068429!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;"allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+
+          </section>
+    
+    
+    
+        </main>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <br /><br />
+
+    </body>
 <footer class="footer-style">
   <div style="line-height: 1.7em;">
     <a href="#"">HOME</a

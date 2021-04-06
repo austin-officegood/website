@@ -73,10 +73,8 @@ html{
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
-     opacity: 0;
 
      
-     animation: fadeIn .5s normal forwards;
 
 
      
@@ -109,16 +107,12 @@ html{
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
 
-    opacity: 0;
-    animation: .5s fadeIn 1s normal forwards;
   }
   
   .button-style {
     padding-top: 4rem;
     text-align: center;
 
-    opacity: 0;
-    animation: .5s fadeIn 1s normal forwards;
   }
 
   .videoText{
@@ -158,8 +152,6 @@ html{
     vertical-align: middle;
     background-color: transparent;
 
-    opacity: 0;
-    animation: 1s fadeIn 1s normal forwards;
     
 }
 
@@ -488,6 +480,8 @@ html{
     .brandImg{
         display: none;
     }
+
+    
 }
 
 @media only screen and (max-width:550px){
