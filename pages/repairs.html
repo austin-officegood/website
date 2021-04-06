@@ -27,6 +27,11 @@
       rel="stylesheet"
     />
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+
+
     
     <!-- Icons Import (FontAwesome) -->
     <script
@@ -47,10 +52,10 @@
 
 
     <!--    Local Script for JS   -->
-    <script src="JS/script.js"></script>
+    <script src="/JS/script.js"></script>
 
 
-
+  <link rel="icon" href="/images/icon.png">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -78,9 +83,11 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav nav-items">
-                    <a class="nav-link lang" href="/pages/kr_main.html">🇰🇷</a>
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#contact" tabindex="-1">Contacts</a>
+                    <!--<a class="nav-link lang" href="/pages/kr_main.html">🇰🇷</a> -->
+                    <a class="nav-link " href="/index.html" tabindex="-1">Home</a>
+                    <a class="nav-link"  href="/pages/about.html" tabindex="-1">About</a>
+                    <a class="nav-link active" aria-current="page" href="#">Repairs</a>
+                    <a class="nav-link" href="/pages/contacts.html" tabindex="-1">Contacts</a>
                 </div>
               </div>
             </div>
@@ -91,219 +98,131 @@
     </header>
     
     <main>
-
-  <!--    Opening Panel on Top    -->
-  <section class="videoText ">
-    <div class="ytVideoEmbed">
-      <iframe style="width: 100%; height: 90%;" width="700" height="525" src="https://www.youtube.com/embed/51PYlnlPDGo?autoplay=1&loop=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <section id="main1" class="parallax">
-      <div class="picture-text">
-          <h1>
-              Since 1996 <br />
-              Quality You Can Trust
-          </h1>
-        </div>
-        <div class="button-style">
-          <a href="pages/contacts.html"
-            ><button type="button" class="btn btn-info">
-              Contact Us Today
-            </button></a
-          >
-        </div>
-    </section>
-  </section>
-
-
-      
-  <!--    Picture and Certification   
-        <section class="pic-desc">
-            <div class="contDiv sect1">
-                <img src="/images/advertPIC.png" alt="">
-            </div>
-            <div  class="contDiv sect2">
-                <h3>
-                    <strong>Since 1996,</strong> we've been providing IT and Tech services.
-                </h3>
-                <h4>With <strong>15 years of Experience</strong>, <br>Our promise to always deliver the best service we can.</h4>
-                <img src="/images/image-asset.png" alt="">
-                <img src="/images/microsoft-certified-professional.jpg" alt="">
-            </div>
-        </section>
--->
-        <section class="pic-desc ">
-          <div class="contDiv sect1">
-            <span class="helper"></span><img src="/images/advertPIC.png" alt="">
-            
+      <section class="repair-landing">
+        <div class="repair-landing-top">
+          <div class="repair-landing-text">
+            <p>
+              Got a problem with your Computer? <br>
+              We can fix it.
+            </p>
           </div>
-          <div class="contDiv sect2">
-            <h3>
-              <strong>Since 1996,</strong>
-            </h3>
-            <p> <strong>Office Good Computers</strong> has been providing IT and Tech services for countless clients.</p>
-            <h4>With <strong>25 years of Experience</strong>, <br>Our promise is to always deliver the best service we can.</h4>
-            <img style="background-color: white;" src="/images/image-asset.png" alt="">
-            <img src="/images/microsoft-certified-professional.jpg" alt="">
+          <div class="repair-landing-pic">
+            <img class="mbImg" src="/images/mb1.png" alt="MainBoard Repairs">
           </div>
-        </section>
-
-
-
-  <!--    Computer Brands   -->
-        <section class="brand-scroll ">
-          <div class="text-container">
-            <h4>
-              <strong>Office Good Computers</strong> is always growing<br>
-              In the Past, in the Present, and even in the Future... <br><br>
-              With so many customers satisfied, <br>
-              Which so many customers verify. <br> <br>
-              <strong>Office Good Computers</strong> promises our customers to always provide a certified, high-quality service.
-            </h4>
-          </div>
-          <div class="brand-icons">
-            <img class="brandImg" src="/images/computer-brands.jpg" alt="">
-          </div>
-        </section>
-
-
-        <div id="contact" style="text-decoration: underline; width: 100%; color: white; font-size: xx-large; font-family: Arial, Helvetica, sans-serif; margin: 5% 0 5% 0; text-align: center;">
-          Contacts
         </div>
-
-<!--    Map Section BP  -->
-      <section  class="contact-info">
-        <div class="location-text">
-          <p>
-            Los Angeles Main Office
-          </p>
-          <table>
-            <tr>
-              <th>
-                Hours:
-              </th>
-              <th>
-  
-              </th>
-            </tr>
-            <tr>
-              <td>
-                Due to COVID-19 Regulations, we will only be taking appointments.
-              </td>
-            </tr>
-            <tr>
-              <td>
-
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Pick-Up and Drop-Off Available Upon Request.
-              </td>
-            </tr>
-          </table>
-          <p>
-            <br>
-            Located At: 
-            <br>
-                3549 Wilshire BlvdLos Angeles, CA 90010
-              <br>
-              <br>
-            For inquiries or appointments:
-           <br>
-            213)387-9122
-          </p>
-  
-        </div>
-        <div class="location-maps">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.2892749388893!2d-118.30436508478464!3d34.06209808060328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b882e71f458f%3A0x2e4d0b2a66bd8c7a!2s3549%20Wilshire%20Blvd%2C%20Los%20Angeles%2C%20CA%2090010!5e0!3m2!1sen!2sus!4v1611949684120!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-  
       </section>
 
-      <br><br><br><br>
-<!--    Map Section  LA -->
-<section id="contact" class="contact-info">
-  
-  <div class="location-maps map1">
-    <iframe class="la-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.175007250234!2d-117.99973848490552!3d33885146380651754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x80dd2b7572f6299f%3A0xe420b15fbc6c7c62!2s5301%20Beach%20Blvd%2C%20Buena%20Park%2C%20CA%2090621!5e0!3m2!sen!2sus!4v1611361068429!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;"allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-  </div>
-  <div class="location-text-la">
-    <p>
-      Buena Park Branch
-    </p>
-    <table>
-      <tr>
-        <th>
-          Hours:
-        </th>
-        <th>
+<br><br>
+      <!--The 3 Icons (PC, AIO, MAC)-->
+      <section class="container repair-icon-container">
+        <div class="row align-items-center">
+          <div class="col repair-icons">
+            <div class="repair-pic">
+              <img src="/images/pc.png" alt="PC">
+            </div>
+            <div class="repair-icon-text">
+              <h3>PC</h3>
+            </div>
+          </div>
+          <div class="col repair-icons">
+            <div class="repair-pic">
+              <img src="/images/aio.png" alt="All-In-One">
+            </div>
+            <div class="repair-icon-text">
+              <h3>All-In-One</h3>
+            </div>
+          </div>
+          <div class="col repair-icons">
+            <div class="repair-pic">
+              <img src="/images/mac.png" alt="Mac">
+            </div>
+            <div class="repair-icon-text">
+              <h3>Mac</h3>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        </th>
-      </tr>
-      <tr>
-        <td>
-          Monday - Friday:    &emsp;
-        </td>
-        <td>
-          10am to 6pm
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Saturday:
-        </td>
-        <td>
-          10am to 5pm
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Sunday:
-        </td>
-        <td>
-          Closed
-        </td>
-      </tr>
-    </table>
-    <p>
-      <br>
-      Located At:
-      <br>
-      5301 Beach Blvd Buena Park, CA 90621
-      <br><br>
-      Located Inside Hannam Korean Market.
-      <br> <br>
-      For inquiries or appointments: <br>
-      714)739-9122
-    </p>
-
-  </div>
-  <div class="location-maps map2">
-    <iframe class="la-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.175007250234!2d-117.99973848490552!3d33885146380651754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x80dd2b7572f6299f%3A0xe420b15fbc6c7c62!2s5301%20Beach%20Blvd%2C%20Buena%20Park%2C%20CA%2090621!5e0!3m2!sen!2sus!4v1611361068429!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;"allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-  </div>
-
-</section>
-
-
+      <!--  More Description About Jobs We Do -->
+      <section class="job-desc" style="width: 100%;">
+        <div class="row align-items-center">
+          <div class="col job-col">
+            <div class="job-pic">
+              <img src="/images/mbpic.png" alt="Motherboard Repairs">
+            </div>
+            <div class="job-desc">
+              <h5>Motherboard Repair</h5>
+            </div>
+          </div>
+          <div class="col job-col">
+            <div class="job-pic">
+              <img src="/images/ssd.png" alt="Solid State Drives">
+            </div>
+            <div class="job-desc">
+              <h5>SSD Installations</h5>
+            </div>
+          </div>
+          <div class="col job-col">
+            <div class="job-pic">
+              <img src="/images/brokenscreen.png" alt="Broken Screen Repairs">
+            </div>
+            <div class="job-desc">
+              <h5>Laptop Screens</h5>
+            </div>
+          </div>
+          <div class="col job-col">
+            <div class="job-pic">
+              <img src="/images/psu.png" alt="Power Supply Unit">
+            </div>
+            <div class="job-desc">
+              <h5>Power Supply</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center" style="margin: 5% 0 3% 0;">
+          <div class="col job-col">
+            <div class="job-pic">
+              <img src="/images/windows.png" alt="Windows Installation">
+            </div>
+            <div class="job-desc">
+              <h5>OS/Programs Installation</h5>
+            </div>
+          </div>
+          <div class="col job-col">
+            <div class="job-pic">
+              <img src="/images/keys.png" alt="Laptop Keyboard Repair">
+            </div>
+            <div class="job-desc">
+              <h5>Laptop Keyboard Repair</h5>
+            </div>
+          </div>
+          <div class="col job-col">
+            <div class="job-pic">
+              <img src="/images/liquid-damage-laptop.png" alt="Water Damage">
+            </div>
+            <div class="job-desc">
+              <h5>Water Damages</h5>
+            </div>
+          </div>
+          <div class="col job-col">
+            <div class="job-pic">
+              <img src="/images/datatransfer.png" alt="Data Transfer">
+            </div>
+            <div class="job-desc">
+              <h5>Data Transfer</h5>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
 
-
-
-
-
-
-
-
-
-    <br /><br /><br /><br /><br /><br /><br />
-    
     <footer class="footer-style">
         <div style="line-height: 1.7em;">
           <a href="#"">HOME</a
           >&nbsp;&nbsp;|&nbsp;&nbsp;
   
-          <a href="pages/contacts.html"
+          <a href="/pages/contacts.html"
             >CONTACT</a
           ><br />
   
@@ -313,12 +232,4 @@
         </div>
       </footer>
 </body>
-
-<script>
-
-</script>
-
-
-
-
 </html>

@@ -118,7 +118,7 @@ html{
   .videoText{
       display: flex;
       text-align: center;
-      margin: 5% 0 0 0;
+      margin: 0 0 0 0;
   }
 
   .ytVideoEmbed{
@@ -136,7 +136,7 @@ html{
       display: flex;
       flex-direction: row;
       margin: 12% 7% 0 7%;
-      padding: 10px 0 10px 0;
+      padding: 5rem 0 10px 0;
       background-color: transparent;
       -webkit-font-smoothing: antialiased;
       height: 80vh;
@@ -151,7 +151,7 @@ html{
     text-align: center;
     vertical-align: middle;
     background-color: transparent;
-
+    margin-bottom: 3%;
     
 }
 
@@ -174,7 +174,7 @@ html{
     width: 50%;
     height: 100%;
     padding: 5% 5% 5% 5%;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .sect1 img{
@@ -216,9 +216,6 @@ html{
 
 }
 
-.text-container h3{
-
-}
 
 
 .brand-icons{
@@ -293,6 +290,100 @@ html{
 
 
 
+/*      This Is Index HTML Selections           */
+
+.col-buttons{
+    text-align: center;
+    border-radius: 60px;
+    background: rgb(248, 239, 239);
+    box-shadow: 0px 0px 2px #888;
+    padding: 3rem;
+    margin: 0 5% 5% 5%;
+}
+
+
+.buttons-in-col{
+    padding-top: 10%;
+}
+
+
+
+
+
+/*       *******      REPAIR PAGE      *********     */
+
+.repair-landing{
+    color: white;
+    border-left: solid white;
+    border-right:  solid white;
+    margin: 20vh 10% 0 10%;
+
+}
+
+.repair-landing-top{
+    display: inline-flex;
+    width: 100%;
+}
+
+.repair-landing-pic{
+    width: 50%;
+    padding: 3rem 1.5rem 3rem 1.5rem;
+    text-align: center;
+}
+
+.repair-landing-pic img{
+    max-width: 500px;
+}
+.repair-landing-text{
+    width: 50%;
+}
+
+.repair-landing-text p{
+    margin: 15% 0 0 0;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.repair-icon-container{
+    border-bottom: solid whitesmoke;
+}
+
+.repair-icons{
+    text-align: center;
+    border-radius: 60px;
+    background: rgb(248, 239, 239);
+    box-shadow: 0px 0px 2px #888;
+    padding: 3rem;
+    margin: 0 2% 5% 2%;
+}
+.repair-pic img{
+    max-width: 250px;
+}
+
+
+
+
+
+.job-desc{
+    color: white;
+}
+
+.job-col{
+    text-align: center;
+}
+
+.job-pic img{
+    max-width: 250px;
+    max-height: 200px;
+}
+
+.job-desc{
+    margin-top: 2%;
+    padding: 5px 0 0 0;
+}
+
+
 /* Footer */
 
 .footer-style {
@@ -361,10 +452,6 @@ html{
     .sect2{
         width: 100%;
     }
-
-    .pic-desc{
-        margin: 0 5% 0 5%;
-    }
 }
 
 
@@ -383,8 +470,11 @@ html{
 
     
     .pic-desc{
+        padding-top: 10rem;
+        margin: 0 5% 0 5%;
         display: block;
         height: fit-content;
+        border: none;
     }
     .sect1{
         width: 100%;
@@ -394,10 +484,6 @@ html{
     }
     .sect2{
         width: 100%;
-    }
-
-    .pic-desc{
-        margin: 0 5% 0 5%;
     }
 
     #topInfoBar{
@@ -412,12 +498,11 @@ html{
     .ytVideoEmbed{
         display: none;
     }
-    .videoText{
-    }
 
     .parallax{
         width: 100%;
         padding: 0 0 0 0;
+        margin-top: 5rem;
     }
 
     .brand-scroll{
@@ -481,12 +566,16 @@ html{
         display: none;
     }
 
+    .col-buttons{
+        margin: 0 20% 5% 20%;
+    }
     
 }
 
 @media only screen and (max-width:550px){
     .parallax{
         min-height: 400px;
+        margin-top: 5rem;
     }
 
     .picture-text{
@@ -497,5 +586,4 @@ html{
     .logo{ 
         width: 80px;
     }
-
 }
