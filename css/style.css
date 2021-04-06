@@ -332,14 +332,14 @@ html{
 }
 
 .repair-landing-pic img{
-    max-width: 500px;
+    max-width: 90%;
 }
 .repair-landing-text{
     width: 50%;
 }
 
 .repair-landing-text p{
-    margin: 15% 0 0 0;
+    margin: 20% 0 0 0;
     text-align: center;
     font-size: xx-large;
     font-family: 'Source Code Pro', monospace;
@@ -568,6 +568,19 @@ html{
 
     .col-buttons{
         margin: 0 20% 5% 20%;
+    }
+
+    .repair-landing-top{
+        display: inline-block;
+    }
+    .repair-landing-text{
+        width: 100%;
+    }
+    .repair-landing-pic{
+        width: 100%;
+    }
+    .repair-icons{
+        margin: 0 10% 5% 10%;
     }
     
 }
