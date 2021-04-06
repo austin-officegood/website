@@ -213,7 +213,7 @@ html{
 
 .text-container{
     margin: 8% 5% 0 5%;
-    height: 100%;
+    overflow: auto;
     width: 30%;
     vertical-align: middle;
     text-align: center;
