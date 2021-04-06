@@ -1,6 +1,6 @@
 html{
     background: transparent;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .fade {
@@ -75,8 +75,9 @@ html{
      -moz-background-size: cover;
      -o-background-size: cover;
 
-     overflow-y: scroll;
-     -webkit-overflow-scrolling: touch;
+     /*overflow-y: auto;
+     overflow-x: hidden;
+     -webkit-overflow-scrolling: touch;*/
 
      
 
