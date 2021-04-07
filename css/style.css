@@ -246,7 +246,7 @@ html{
 
 .location-text{
     text-align: center;
-    padding: 0% 5% 5% 5%; 
+    padding: 5% 5% 5% 5%; 
     width: 50%;
     font-family: 'Nunito', sans-serif;
     font-size: x-large;
@@ -270,7 +270,7 @@ html{
 .location-text-la{
     text-align: center;
     margin: 0 0 0 20%;
-    padding: 0% 5% 5% 5%; 
+    padding: 2% 5% 5% 5%; 
     width: 40%;
     font-family: 'Nunito', sans-serif;
     font-size: x-large;
